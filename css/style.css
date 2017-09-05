@@ -5,21 +5,61 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	background-repeat: background-repeat;
+}
+
 header {
 	margin: 0 auto;
 }
 
+.titles {
+	background-color: #fff;
+	color: black;
+	width: 978px;
+	height: 150px;
+	margin: 0 auto;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.socialsearch {
+	float: right;
+	/*width: 95px;*/
+	height: 22px;
+	border-radius: 16px;
+	margin-right: 20px;
+}
+
 h1 {
-	color: white;
+	color: black;
+}
+
+.separator {
+	border: 1px 0 solid #ccc;
+	padding: 2px;
+	width: 978px;
+	margin: 0 auto;
+}
+
+.navigation {
+	background-color: #fff;
+	color: black;
+	width: 978px;
+	height: 150px;
+	margin: 0 auto;
+
 }
 
 nav {
-	background-color: #ccc;
+	background-color: #fff;
 	width: 100%;
 	height: 100px;
-	background-color: #fff;
-	border-top: 2px double #fff;
+	border-top: 1px solid #ccc;
 	margin: 0 auto;
+	padding: 2px;
 }
 
 ul {
@@ -38,21 +78,20 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: #000;
     text-align: center;
     padding: 20px 22px;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #959595;
-    color: #D0EDF1; /*azureish white*/
+    background-color: #F6FA80; /*sunny green*/
+    color: #000;
 }
 
 li a:link {
-    background-color: #ccc;
-    color: white;
+    background-color: #fff;
+    color: #000;
 }
 
 .aHomepagetext {
@@ -62,21 +101,20 @@ li a:link {
 }
 
 .aHomepagesubtitle {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-style: italic;
 	text-align: center;
 }
 
 figure {
-	background-color: #fffff9;
+	background-color: #fff;
 	width: 978px;
 	height: 524px;
 	margin: 0 auto;
-	border: 0.5px solid #D0EDF1;
+	border: 0.5px solid #ccc;
 }
 
 .headerImage {
-	opacity: 0.9;
 	padding: 5px;
 }
 
@@ -84,63 +122,92 @@ figcaption {
 	padding: 10px;
 }
 
+.separatorImg {
+	border: 1px 0 solid #ccc;
+	padding: 20px;
+	width: 978px;
+	margin: 0 auto;
+}
+
 .whiteBackground {
-	background-color: #ccc;
+	background-color: #fff;
 	height: 500px;
 	width: 100%;
+}
+
+
+.blogTitle {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.blogImage {
+	border: 1px solid #ccc;
+	background-color: #fff;
+	width: 230px;
+	height: 180px;
+	float: left;
+}
+
+.blogImage2 {
+	text-align: center;
+	padding: 10px;
+}
+
+.blogEntry {
+	padding: 10px;
 }
 
 .blogContent {
 	height: 500px;
 	width: 978px;
-	border: 0.5px solid #D0EDF1;
 	margin: 0 auto;
+	border: 1px solid #ccc;
 }
 
 .column1 {
 	float: left;
 	padding: 0;
 	margin: 0;
-	border: solid 1px #D0EDF1;
 	width: 628px;
 	height: 500px;
 	position: absolute;
 }
 
-/*.column2 {
-	position: relative;
-	padding: 0;
-	margin: 0;
-	border: solid 1px #D0EDF1;
-	width: 350px;
-	height: 500px;
-}*/
-
-.navigation {
-	background-color: #ccc;
-	color: black;
-	width: 978px;
-	height: 150px;
-	margin: 0 auto;
-
-}
-
-.titles {
-	background-color: #ccc;
-	color: black;
-	width: 978px;
-	height: 150px;
+.separatorFt {
+	border: 1px 0 solid #ccc;
+	padding: 10px;
+	width: 100%
 	margin: 0 auto;
 }
 
 .footerarea {
 	width: 100%;
 	height: 407px;
-	background-color: white;
+	margin: 0 auto;
 }
 
-.blogTitle {
-	font-size: 30px;
-	font-weight: bold;
+.footerc1 , 
+.footerc2 , 
+.footerc3 {
+	float: left;
+	border: 1px solid #ccc;
+	height: 300px;
+	width: 400px;
+	margin: 10px;
+	padding: 50px;
+
 }
+
+.footercopy {
+	font-style: italic;
+	font-size: 1em;
+	letter-spacing: 1px;
+	padding: 5px;
+}
+
+
+
+
+
 
