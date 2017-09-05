@@ -1,0 +1,146 @@
+* {
+	font-family: "Dosis", Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+}
+
+nav {
+	background-color: #ccc;
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+	border-top: 2px double #fff;
+	margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    /*float: right;*/
+    display: inline-block;
+    word-spacing: 5px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #959595;
+    color: #D0EDF1; /*azureish white*/
+}
+
+li a:link {
+    background-color: #ccc;
+    color: white;
+}
+
+.aHomepagetext {
+	font-size: 2em;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.aHomepagesubtitle {
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+}
+
+figure {
+	background-color: #fffff9;
+	width: 978px;
+	height: 524px;
+	margin: 0 auto;
+	border: 0.5px solid #D0EDF1;
+}
+
+.headerImage {
+	opacity: 0.9;
+	padding: 5px;
+}
+
+figcaption {
+	padding: 10px;
+}
+
+.whiteBackground {
+	background-color: #ccc;
+	height: 500px;
+	width: 100%;
+}
+
+.blogContent {
+	height: 500px;
+	width: 978px;
+	border: 0.5px solid #D0EDF1;
+	margin: 0 auto;
+}
+
+.column1 {
+	float: left;
+	padding: 0;
+	margin: 0;
+	border: solid 1px #D0EDF1;
+	width: 628px;
+	height: 500px;
+	position: absolute;
+}
+
+/*.column2 {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	border: solid 1px #D0EDF1;
+	width: 350px;
+	height: 500px;
+}*/
+
+.navigation {
+	background-color: #ccc;
+	color: black;
+	width: 978px;
+	height: 150px;
+	margin: 0 auto;
+
+}
+
+.titles {
+	background-color: #ccc;
+	color: black;
+	width: 978px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.footerarea {
+	width: 100%;
+	height: 407px;
+	background-color: white;
+}
+
+.blogTitle {
+	font-size: 30px;
+	font-weight: bold;
+}
+
